@@ -10,11 +10,11 @@ namespace msa {
 			currentIndex = 0;
 		}
 		
-		T& getFront() {
+		T& getTarget() {
 			return objects[currentIndex];
 		}
 		
-		T& getBack() {
+		T& getSource() {
 			return objects[1-currentIndex];
 		}
 		
