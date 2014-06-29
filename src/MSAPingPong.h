@@ -21,6 +21,10 @@ namespace msa {
 		void swap() {
 			currentIndex = 1 - currentIndex;
 		}
+        
+        T& at(int i) {
+            return objects[i];
+        }
 		
 	protected:
 		T		objects[2];
